@@ -3,11 +3,11 @@
 #include <math.h>
 void main(int argc, char *argv[])
 {
-    int side1;
-    int side2;
-    int hypotenuse;
-    int perimeter;
-    int area;
+    float side1;
+    float side2;
+    float hypotenuse;
+    float perimeter;
+    float area;
     printf("\nIngrese el primer lado: ");
     scanf("%d", &side1);
     printf("\nIngrese el segundo lado: ");
@@ -15,6 +15,6 @@ void main(int argc, char *argv[])
     area = side1 * side2;
     hypotenuse = sqrt(side1 * side1 + side2 * side2);
     perimeter = side1 * 2 + side2 * 2;
-    printf("\nEl area del triangulo es: %d \n La hipotenusa es: %d \n El perimetro es: %d", area, hypotenuse, perimeter);
+    printf("\nEl area del rectangulo es: %.2f \n La hipotenusa es: %.2f \n El perimetro es: %.2f", area, hypotenuse, perimeter);
     return;
 }

@@ -7,6 +7,7 @@ void main(int argc, char *argv[])
     int number2;
     int number3;
     int firstAddition;
+    int completeAdditon;
     printf("\nIngrese el primer numero: ");
     scanf("%d", &number1);
     printf("\nIngrese el segundo numero: ");
@@ -14,6 +15,7 @@ void main(int argc, char *argv[])
     printf("\nIngrese el tercer numero: ");
     scanf("%d", &number3);
     firstAddition = number1 + number2;
-    printf("\nEl resultado entre la suma de los 3 numeros es: %d", firstAddition + number3);
+    completeAddition = firstAddition + numer3;
+    printf("\nEl resultado entre la suma de los 3 numeros es: %d", completeAddition);
     return;
 }

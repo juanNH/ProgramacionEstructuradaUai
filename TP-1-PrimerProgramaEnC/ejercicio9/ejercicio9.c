@@ -5,10 +5,11 @@
 void main(int argc, char *argv[])
 {
 
-    int hoursWorked;
-
+    float hoursWorked;
+	float salary
     printf("\nIngrese las horas trabajadas: ");
     scanf("%d", &hoursWorked);
-    printf("\nEl sueldo es: $%d", HOUR_PRICE * hoursWorked);
+    salary = HOUR_PRICE * hoursWorked
+    printf("\nEl sueldo es: $%d", salary);
     return;
 }

@@ -3,13 +3,14 @@
 #include <math.h>
 void main(int argc, char *argv[])
 {
-    int hourPrice;
-    int hoursWorked;
-
+    float hourPrice;
+    float hoursWorked;
+	float salary;
     printf("\nIngrese el precio de la hora: ");
-    scanf("%d", &hourPrice);
+    scanf("%f", &hourPrice);
     printf("\nIngrese las horas trabajadas: ");
-    scanf("%d", &hoursWorked);
-    printf("\nEl sueldo es: $%d", hourPrice * hoursWorked);
+    scanf("%f", &hoursWorked);
+    salary= hourPrice + hoursWorked;
+    printf("\nEl sueldo es: $%.2f", salary);
     return;
 }
